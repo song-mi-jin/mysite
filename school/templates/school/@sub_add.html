@@ -1,0 +1,7 @@
+<h1>{{ student.student_name}} 학생의 과목등록 페이지</h1>
+
+<form action="" method="post">
+{% csrf_token %}
+과목명 : <input type="text" name="subject_text"><br />
+<input type="submit" value="과목 등록하기">
+</form>
