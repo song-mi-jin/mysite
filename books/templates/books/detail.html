@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %} 회원리스트 {% endblock %}
+{% block content %}   
+{{ object.Mem_id }}<br />
+{{ object.Mem_name }}
+{% if object.Mem_img %}<img src="{{ object.Mem_img.url }}">{% endif %}
+{% endblock %}

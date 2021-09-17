@@ -1,0 +1,8 @@
+<html>
+<head>
+<title>Django</title>
+</head>
+<body>
+Hello, {{word}}
+</body>
+</html>

@@ -1,0 +1,9 @@
+{% if latest_student_list  %}
+    <ul>
+    {% for student in latest_student_list  %}
+        <li><a href="/school/{{ student.id }}/">{{ student.student_name }} :: {{ student.student_tel }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
